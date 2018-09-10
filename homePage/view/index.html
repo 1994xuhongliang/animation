@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>首页动画</title>
+	<style type="text/css">
+		.wrapper {
+			width: 100%;
+			height: 1715px;
+			background-image: url(../image/icon_bac.png);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position: 0 0;
+			box-sizing: border-box;
+			padding: 480px 90px 0;
+		}
+
+		.icon_0, .icon_2 {
+			opacity: 0;
+			width: 100%;
+			height: 73px;
+			margin: 0 0 100px;
+			background-repeat: no-repeat;
+			background-size: auto 73px;
+			background-position: left center;
+		}
+
+		.icon_1, .icon_3 {
+			opacity: 0;
+			width: 100%;
+			height: 100px;
+			margin: 0 0 100px;
+			background-repeat: no-repeat;
+			background-size:  auto 100px;
+			background-position: right center;
+			animation-duration: 1s;
+			animation-delay: 0.5s;
+			animation-fill-mode: forwards;
+		}
+
+		.icon_0 {
+			animation-name: mymove_0;
+			animation-duration: 1s;
+			animation-delay: 0.5s;
+			animation-fill-mode: forwards;
+			background-image: url(../image/icon_0.png);
+		}
+		.icon_1 {
+			animation-name: mymove_1;
+			animation-duration: 1s;
+			animation-delay: 1.5s;
+			animation-fill-mode: forwards;
+			background-image: url(../image/icon_1.png);
+		}
+		.icon_2 {
+			animation-name: mymove_2;
+			animation-duration: 1s;
+			animation-delay: 2.5s;
+			animation-fill-mode: forwards;
+			background-image: url(../image/icon_2.png);
+		}
+		.icon_3 {
+			animation-name: mymove_3;
+			animation-duration: 1s;
+			animation-delay: 3.5s;
+			animation-fill-mode: forwards;
+			background-image: url(../image/icon_3.png);
+			margin:  0 0 150px;
+		}
+
+		.icon_4 {
+			opacity: 0;
+			display: block;
+			zoom: 1;
+			animation-name: mymove_4;
+			animation-duration: 1.2s;
+			animation-iteration-count: infinite;
+			animation-fill-mode: forwards;
+			animation-delay: 4.5s;
+			animation-timing-function: linear;
+			width: 442px;
+			margin: 0 auto 0;
+			background-image: url(../image/icon_4.png);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+		}
+
+		@keyframes mymove_0 {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+
+		@keyframes mymove_1 {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+
+		@keyframes mymove_2 {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+
+		@keyframes mymove_3 {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+
+		@keyframes mymove_4 {
+			0% {
+				opacity: 1;
+				width: 442px;
+			}
+			50% {
+				opacity: 1;
+				width: 600px;
+			}
+			100% {
+				opacity: 1;
+				width: 442px;
+			}
+		}
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div id="scale-wrapper">
+    <div class="wrapper">
+		<div class="icon_0"></div>
+		<div class="icon_1"></div>
+		<div class="icon_2"></div>
+		<div class="icon_3"></div>
+		<img class="icon_4 icon_4_show" src='../image/icon_4.png'/>
+	</div>
+</div>
+	
+</body>
+</html>
