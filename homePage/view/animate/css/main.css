@@ -1,0 +1,54 @@
+.wrapper {
+		width: 100%;
+		height: 1715px;
+		background-image: url(../../../image/icon_bac.png);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: 0 0;
+		box-sizing: border-box;
+		padding: 480px 90px 0;
+	}
+
+	.icon_0, .icon_2 {
+		display: none;
+		width: 100%;
+		height: 73px;
+		margin: 0 0 100px;
+		background-repeat: no-repeat;
+		background-size: auto 73px;
+		background-position: left center;
+	}
+
+	.icon_1, .icon_3 {
+		display: none;
+		width: 100%;
+		height: 100px;
+		margin: 0 0 100px;
+		background-repeat: no-repeat;
+		background-size:  auto 100px;
+		background-position: right center;
+	}
+
+	.icon_0 {
+		background-image: url(../../../image/icon_0.png);
+	}
+	.icon_1 {
+		background-image: url(../../../image/icon_1.png);
+	}
+	.icon_2 {
+		background-image: url(../../../image/icon_2.png);
+	}
+	.icon_3 {
+		background-image: url(../../../image/icon_3.png);
+		margin:  0 0 150px;
+	}
+
+	.icon_4 {
+		opacity: 0;
+		display: block;
+		width: 442px;
+		margin: 0 auto 0;
+		background-image: url(../../../image/icon_4.png);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+	}
